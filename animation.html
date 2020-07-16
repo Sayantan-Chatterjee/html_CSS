@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>MY_First_Animation</title>
+    <style> 
+    div {
+      width: 50px;
+      height: 50px;
+      background-color:blanchedalmond;
+      position: relative;
+      animation: anime 7s linear 3s infinite alternate;
+    }
+    
+    @keyframes anime{
+      0%   {background-color:rosybrown; left:0px; top:0px;}
+      25%  {background-color:gray; left:200px; top:0px;}
+      50%  {background-color:goldenrod; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:olivedrab; left:0px; top:0px;}
+    }
+    </style>
+    </head>
+    <body>
+    
+    <p><b>Note:</b>This animation does not work in every web browser</p>
+    
+    <div></div>
+    
+    </body>
+    </html>
